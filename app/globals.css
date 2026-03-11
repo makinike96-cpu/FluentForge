@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system_ui, sans-serif;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-cyan-400 text-dark font-semibold py-4 px-8 rounded-2xl transition-all duration-300 text-lg;
+}
+
+.input {
+  @apply w-full px-5 py-4 rounded-2xl border border-gray-200 focus:border-primary focus:outline-none text-lg transition-all;
+}
+
+.step-circle {
+  @apply w-10 h-10 flex items-center justify-center rounded-full border-2 transition-all;
+}
